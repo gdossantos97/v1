@@ -7,6 +7,8 @@ import reactImage from '../assets/react.png'
 import graphql from '../assets/graphql.png'
 import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
+import SQL from '../assets/SQL.png'
+import mongoDB from '../assets/mongoDB.png'
 
 const Experience = () => {
 
@@ -51,6 +53,18 @@ const Experience = () => {
             id: 7,
             src: tailwind,
             title: 'Tailwindcss',
+            style: 'shadow-orange-500'
+        },
+        {
+            id: 8,
+            src: SQL,
+            title: 'SQL',
+            style: 'shadow-orange-500'
+        },
+        {
+            id: 8,
+            src: mongoDB,
+            title: 'MongoDB',
             style: 'shadow-orange-500'
         }
     ]
